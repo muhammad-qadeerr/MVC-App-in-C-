@@ -1,0 +1,42 @@
+﻿@using  Lecture49YT_MVC_Add_Students.Models
+@model Student
+<html>
+    <head> 
+
+    </head>
+
+    <body>
+        <h3>Add a New Student</h3>
+    <form method="post" action = "/Student/StudentForm">
+ <!--  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br> --> 
+
+  <label asp-for="Name"></label><br>
+  <input asp-for="Name" ><br> 
+
+ <!--<label for="name">Age:</label><br>
+  <input type="text" id="age" name="age"><br> -->
+
+   <label asp-for = "Age"></label><br>
+  <input asp-for="Age"><br>
+
+  <!--<label for="name">CGPA:</label><br>
+  <input type="text" id="cgpa" name="cgpa"><br> --> 
+  
+  <label asp-for="CGPA"></label><br>
+  <input asp-for="CGPA"><br>
+
+  <!--<label for="name">Semester:</label><br>
+  <input type="text" id="semester" name="semester"><br> <br>--> 
+
+  <label asp-for="Semester"></label><br>
+  <input asp-for="Semester"><br> <br>
+
+  <input type="submit" value = "Save Student" />
+
+
+ 
+    </form>
+
+    </body>
+</html>

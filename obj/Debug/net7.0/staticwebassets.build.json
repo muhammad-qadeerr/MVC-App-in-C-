@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "sCkzopr7Oc795I4qoDDS5JQcmatYCMghLDllWoTUQcg=",
+  "Source": "Lecture49YT_MVC_Add_Students",
+  "BasePath": "_content/Lecture49YT_MVC_Add_Students",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lecture49YT_MVC_Add_Students\\wwwroot",
+      "Source": "Lecture49YT_MVC_Add_Students",
+      "ContentRoot": "D:\\CSharp Practice\\Youtube C# Lectures Sir Shuja\\Lecture49YT_MVC_Add_Students\\Lecture49YT_MVC_Add_Students\\wwwroot\\",
+      "BasePath": "_content/Lecture49YT_MVC_Add_Students",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

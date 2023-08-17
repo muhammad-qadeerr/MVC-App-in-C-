@@ -1,0 +1,28 @@
+﻿@model List<Lecture49YT_MVC_Add_Students.Models.Student>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table border="1">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>CGPA</th>
+        <th>Semester</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(Lecture49YT_MVC_Add_Students.Models.Student s in Model)
+        {
+                    <tr>
+                        <td>@s.Name</td>
+                        <td>@s.Age</td>
+                        <td>@s.CGPA</td>
+                        <td>@s.Semester</td>
+                    </tr>
+        }
+
+    </tbody>
+</table>

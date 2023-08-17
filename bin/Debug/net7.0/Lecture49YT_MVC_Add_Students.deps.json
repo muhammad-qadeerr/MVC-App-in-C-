@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lecture49YT_MVC_Add_Students/1.0.0": {
+        "runtime": {
+          "Lecture49YT_MVC_Add_Students.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lecture49YT_MVC_Add_Students/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

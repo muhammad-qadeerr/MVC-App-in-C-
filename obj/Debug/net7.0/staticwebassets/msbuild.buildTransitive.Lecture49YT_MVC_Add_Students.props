@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Lecture49YT_MVC_Add_Students.props" />
+</Project>
